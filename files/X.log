@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.1.14)  11 FEB 2012 13:35
+entering extended mode
+ %&-line parsing enabled.
+**resolution.tex
+(./resolution.tex
+! Interruption.
+<to be read again> 
+                   \begingroup 
+l.1 
+    
+? X
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 495062
+ 137 string characters out of 1182644
+ 45108 words of memory out of 3000000
+ 3282 multiletter control sequences out of 15000+50000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 3i,0n,1p,19b,6s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

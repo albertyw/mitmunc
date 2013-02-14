@@ -1,0 +1,18 @@
+nav#header1>ul {
+  padding-top: 0;
+  width: 685px;
+  margin-left: 290px;
+}
+nav#header1>ul>li {
+  display: inline;
+  float: left;
+  height: 51px;
+  position: relative;
+  top: 43px;
+}
+nav#header1>ul>li img {
+  display: inline;
+}
+div.dynamic_menu {
+    width: auto;
+}

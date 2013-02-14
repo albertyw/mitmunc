@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /bugzilla/
+Disallow: /controlpanel/
+Disallow: /handbook/

@@ -1,0 +1,93 @@
+/**
+These css properties are for the footer
+**/
+footer {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+#footerstripe {
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #4B4B4B;
+    height: 47px;
+}
+#footerstripe p {
+    text-align: center;
+    padding-top: 13px;
+    letter-spacing: 0.5px;
+}
+#footerstripe a:link, #footerstripe a:visited {
+    color: white;
+}
+
+footer>nav {
+  display: block;
+  width: 999px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  vertical-align: top;
+}
+footer>nav ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+footer>nav>ul>li {
+  margin: 0;
+  vertical-align: top;
+  float: left;
+  text-align: left;
+  width: 134px;
+  padding: 4px;
+}
+
+footer>nav>ul>li>ul>li {
+  margin: 0;
+  padding: 0;
+}
+
+.footerlogo {
+  float: left;
+  margin-right: 20px;
+  margin-left: 32px;
+}
+
+#footerBottomLink {
+  clear: both;
+}
+footer>nav>ul>li a:link, footer>nav>ul>li a:visited {
+    vertical-align: top;
+    font-family: "Tahoma", sans-serif;
+    color: #B6B6B6;
+    font-weight: normal;
+    text-decoration: none;
+}
+footer>nav>ul>li a:hover, footer>nav>ul>li a:active {
+    text-decoration: underline;
+}
+
+footer>nav>ul>li>a:link, footer>nav>ul>li>a:visited {
+    color: #4B4B4B;
+    font-weight: bold;
+    display: block;
+}
+
+#footerBottomLink {
+    font-family: "Tahoma", sans-serif;
+}
+#footerBottomLink a:link, #footerBottomLink a:visited {
+    color: #B6B6B6;
+    font-weight: normal;
+    text-decoration: none;
+    font-size:13px;
+}
+#footerBottomLink a:hover, #footerBottomLink a:active {
+    text-decoration:underline;
+    font-size: 13px;
+}

@@ -1,0 +1,107 @@
+/**
+These css properties are for the header
+**/
+#headertoptable {
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+header {
+    display: block;
+    margin: 0;
+}
+nav#header1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 94px;
+}
+nav#header1>div.logo {
+    float: left;
+}
+nav#header1>ul {
+    list-style: none inside none;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    height: 94px;
+    padding-top: 43px;
+}
+nav#header1>ul>li {
+    margin: 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#header1 img {
+    display: block;
+    vertical-align: top;
+}
+#header2 {
+    display: block;
+    height: 309px;
+    width: 999px;
+    white-space: nowrap;
+    padding: 0;
+}
+#header2 img {
+    padding: 0;
+}
+.main_logo {
+    float: right;
+    width: 287px;
+    height: 309px;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/header/Main_Logo.gif');
+}
+div.dynamic_menu {
+    margin: 0;
+    padding-top: 67px;
+    font-family: "Trebuchet MS", "Tahoma", "Helvetica", sans-serif;
+    width: 712px;
+    height: 309px;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url("/images/header/selection1.gif");
+}
+div.menu_item,
+nav.menu_item {
+    display: none;
+    margin: 0;
+}
+.menu_item .text1 {
+    font-size: 31px;
+    text-align: right;
+    padding-right: 110px;
+    padding-top: 22px;
+}
+.menu_item .text2 {
+    font-size: 45px;
+    text-align: right;
+    padding-right: 110px;
+}
+nav.menu_item.sublink {
+    padding-top: 150px;
+    padding-left: 23px;
+    font-size: 24px; 
+}
+nav.menu_item.sublink a:link, nav.menu_item.sublink a:visited {
+    text-decoration: none;
+    color: white;
+}
+nav.menu_item.sublink a:hover, nav.menu_item.sublink a:active {
+    text-decoration: underline;
+    color: white;
+}
+nav.menu_item.sublink.login {
+    font-size: 20px;
+}
+nav.menu_item.sublink span.login_link {
+    display: block;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 1em;
+}

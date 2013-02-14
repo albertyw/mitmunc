@@ -1,0 +1,141 @@
+@import url("/template/header.css");
+@import url("/template/footer.css");
+@import url("/template/controlPanel.css");
+html, body, address, blockquote, div, form, pre, table, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong, sub, sup, tt, var, legend, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 24px;
+}
+img, fieldset {
+    border: 0;
+}
+body {
+    background-image: url("/images/background.gif");
+    background-repeat: repeat-x;
+}
+#container {
+    width: 999px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#body {
+    font-family: "Tahoma", sans-serif;
+    color: #444444;
+    font-size: 15px;
+    line-height: 1.4em;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+#body h1 {
+    font-size: 22px;
+    text-align: center;
+}
+#body h2 {
+    font-size: 19px;
+}
+#body h3 {
+    font-size: 15px;
+}
+#body p {
+    text-align: justify;
+}
+#body #schedule {
+    border: 0;
+    padding-bottom: 20px;
+}
+#body #schedule th {
+    padding-top: 20px;
+}
+#body #schedule td {
+    padding-right: 15px;
+}
+#body #secretariat td {
+    padding: 0px;
+    margin: 0px;
+}
+#body th {
+    text-align:left;
+}
+#body .gray {
+    background: #4B4B4B;
+    color: white;
+}
+#body .c1 {
+    width: 250px;
+}
+
+.validation_error {
+    font-size: 9px;
+    color: #C22;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table.padded td, table.padded th {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table.bordered {
+    border-collapse: collapse;
+}
+table.bordered td, table.bordered th {
+    border: 1px solid;
+    border-color: black;
+}
+
+
+/* ccMatrix */
+table.ccmatrixTable{
+    vertical-align: top;
+}
+
+.ccHeight {
+    line-height: 30px;
+    text-align:center;
+}
+.ccShow {
+    
+}
+.ccEdit {
+    display:none;
+}
+.ccSum {
+    font-weight:bold;
+}
+.ccCommittee {
+    padding: 10px;
+}
+
+/*School list*/
+.waitingSchoolPayment{
+    background: #f88;
+}
+
+.waitingFinAid{
+    background: #8f8;
+}
+
+.waitingCountryPreferences{
+    background: #88f;
+}
+
+.waitingCountryAssignments{
+    background: #fc4;
+}
+

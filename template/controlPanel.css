@@ -1,0 +1,125 @@
+
+/* Control Panel */
+div.step_wrapper ul,
+div.step_wrapper li,
+div.step_wrapper ol,
+div.step_wrapper p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div.stepcontent ul {
+    font-size: 12px;
+        text-shadow: 0 0 2px #CCC;
+}
+div.stepcontent ul a:link, div.stepcontent ul a:visited, div.stepcontent ul a:active {
+    color: #000000;
+}
+div.stepcontent ul a:hover {
+    color: #444444;
+}
+ul.must_start {
+    list-style: disc inside url("/images/todo-red.gif");
+}
+
+div.stepcontent ul span.tag {
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 6px;
+    text-shadow: 0 0 0 transparent;
+}
+div.stepcontent ul.must_start span.tag {
+    background-color: #be1200;
+}
+div.stepcontent ul.can_start span.tag {
+    background-color: #999999;
+}
+div.stepcontent ul.in_progress span.tag {
+    background-color: #f9ca43;
+}
+div.stepcontent ul.unavailable span.tag {
+    background-color: #BBBBBB;
+}
+div.stepcontent ul.done span.tag {
+    background-color: #41a014;
+}
+ul.in_progress {
+    list-style: disc inside url("/images/todo-yellow.gif");
+}
+ul.done {
+    list-style: disc inside url("/images/todo-green.gif");
+}
+ul.can_start {
+    list-style: disc inside url("/images/todo-black.gif");
+}
+ul.unavailable {
+    list-style: disc inside url("/images/todo-grey.gif");
+    color: #888888;
+}
+div.step {
+    margin-bottom: 4px;
+    padding: 0;
+    border: 1px solid #444444;
+    background-color: #EEE;
+    height: 102px;
+}
+div.step:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+div.step:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.stepdef {
+    display: inline-block;
+    width: 196px;
+    padding: 8px;
+    border-right: 1px solid #888888;
+    height: 86px;
+    margin: 0;
+}
+div.stepcontent {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 0 0 16px;
+    margin-top: 4px;
+}
+div.stepdef span.number {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #41A014;
+    border-radius: 3px;
+    border: 1px #2A690D solid;
+    padding: 3px;
+    font-size: 11px;
+}
+div.stepdef span.stepname {
+    display: block;
+    font-size: 13px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+.countrySelections label {
+    display: inline-block;
+    width: 110px;
+    margin-right: 4px;
+}
+
+
+/* invoice.php */
+#title {                                  /* 6. */
+	display: list-item;                /* 1. */
+	list-style-image: url(/images/invoice.jpg); /* 2. */
+	list-style-position: inside;       /* 3. */
+	letter-spacing: -1000em;           /* 4. */
+	font-size: 1pt;                    /* 5. */
+	color: #fff;                       /* 5. */
+	margin:0px 0px 0px 80px;
+	text-align:center;
+	position:absolute;
+	z-index:-1;
+}

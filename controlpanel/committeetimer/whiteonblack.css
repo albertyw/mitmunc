@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+#announcements_textarea {
+    background-color: black;
+    border: 1px #AAA solid;
+    color: white;
+}
+#speech_timer_number, #caucus_timer_number{
+		color: white;
+		box-shadow: 0 0 2px #444;
+		border: 1px #222 solid;
+}
+#speech_timer_number{
+		background-color: #1A1410;
+}
+#caucus_timer_number{
+    background-color: #0F0F14;
+}
