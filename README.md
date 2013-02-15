@@ -20,4 +20,4 @@ in the adviser's control panel.
 
 A few files have unfortunately been .gitignored in order to protect information related to security or conference confidential information.  
 
-
+See AUTHORS.txt
