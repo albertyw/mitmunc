@@ -8,6 +8,7 @@ with many AJAX requests in the Control Panel.
 
 Unlike most other conference websites, mitmunc.org has tight integration between conference staff, attending schools' faculty advisers, 
 and the website content.  The Control Panel features:
+
 1.  Different modes for Secretariat/Admin, Chair, Adviser/Student, and Committee Timers (See below)
 2.  Complete financial tracking of the conference's income and expenditures, including reflection of accepted school fees 
 in the adviser's control panel.  

@@ -1,6 +1,6 @@
-login.php
-error_log
-google*
-permissions.sh
-controlpanel/secretariat/control.php
-include/functions.php
+src/login.php
+src/error_log
+src/google*
+src/permissions.sh
+src/controlpanel/secretariat/control.php
+src/include/functions.php
