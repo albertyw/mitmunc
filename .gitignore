@@ -3,4 +3,3 @@ src/error_log
 src/google*
 src/permissions.sh
 src/controlpanel/secretariat/control.php
-src/include/functions.php
