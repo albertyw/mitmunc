@@ -21,7 +21,3 @@ in the adviser's control panel.
 A few files have unfortunately been .gitignored in order to protect information related to security or conference confidential information.  
 
 See AUTHORS.txt
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/albertyw/mitmunc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
