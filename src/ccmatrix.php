@@ -1,8 +1,17 @@
 <?php
 $title = "MITMUNC - Country/Committee Matrix";
 require("/var/www/mitmunc/template/header.php"); ?>
+<style>
+.ccShow:nth-child(odd)		{ background-color:#eee; }
+.ccShow:nth-child(even)		{ background-color:#fff; }
+th>div.ccHeight:nth-child(4n+1)		{ background-color:#eee; }
+th>div.ccHeight:nth-child(4n+3)		{ background-color:#fff; }
+
+</style>
 
 <h1>Country/Committee Matrix</h1>
+
+
 The table below shows which countries and positions have membership on our committees.  
 <a href="#specialCommitteePositions">See Special Committee Positions</a>
 
@@ -29,10 +38,10 @@ echo '<tr>';
     // Countries
     echo '<th nowrap="nowrap">';
 	foreach($ccMatrix->countries as $countryId){
-            echo '<span class="ccHeight">';
+            echo '<div style="display:inline;width:253px !important;height:30px !important;"class="ccHeight">';
             echo country::getCountryName($countryId);
             $countrySum[$countryId] = 0;
-            echo '</span>';
+            echo '</div>';
             echo '<br />';
         }
         echo '<span class="ccHeight">';
@@ -47,6 +56,12 @@ echo '<tr>';
                 if($value== '1'){
                     echo '1';
                     $countrySum[$countryId]++;
+                }else if($value== '2'){
+                    echo '2';
+                    $countrySum[$countryId]+=2;
+                }else if($value== '3'){
+                    echo '3';
+                    $countrySum[$countryId]+=3;
                 }else{
                     echo '&nbsp;';
                 }
@@ -72,8 +87,8 @@ echo '</tr>';
 
 echo '</table>';
 
-echo '<a name="specialCommitteePositions"></a>';
-echo '<h1>Special Committee Positions</h2>';
+echo '<a style="margin-top:20px;" name="specialCommitteePositions"></a>';
+echo '<h1 style="text-align:left;">Special Committee Positions</h1>';
 foreach(committee::getAllCommitteeNames() as $committeeId => $committeeName){
     $committee = new committee($committeeId);
     if(sizeof($committee->specialPositions)!=0){

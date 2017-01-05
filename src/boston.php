@@ -9,7 +9,23 @@ If you're able to extend your stay in Boston, we highly recommend taking some ti
 The Boston Visitor's Guide can be found at: <a href="http://www.boston.com/travel/boston/">Boston Travel</a>.
 </p>
 <p>
-Cambridge and Boston offer a variety of hotels at which to stay to experience all Boston has to offer. To learn more about the nearest hotel to the conference site, including the discounted rooms we have to offer you, please visit our <a href="http://www.mitmunc.org/accommodations">Accommodations page</a>.
+Maps of MIT:<br/>
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="files/map.jpg"> MIT Map (.jpg)</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(right click image and press "Save Image As" to download
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="files/map.png"> MIT Map (.png)</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(right click image and press "Save Image As" to download
+
+</p>
+
+<p>
+Cambridge and Boston offer a variety of hotels at which to stay to experience all Boston has to offer. To learn more about the nearest hotel to the conference site, including the discounted rooms we have to offer you, please visit our <a href="http://mitmunc.mit.edu/accommodations">Accommodations page</a>.
 <p>
 If you would like to take MIT Admission's official tour, their website is at 
 <a href="http://www.mitadmissions.org">mitadmissions.org</a>.  MIT Admissions runs 
@@ -33,9 +49,15 @@ While journeying around the city, we highly recommend the use of Boston's Subway
 locally known as the "T".  
 Maps, schedules, and fares can be found at the <a href="http://www.mbta.com/">MBTA website</a>.
 </p>
+<!--
 <h2>Thanking Our Sponsors</h2>
 <p>The following brands have graciously sponsored MITMUNC 2013:</p>
+<ul><li>
+<a href="http://www.piratebrands.com">Pirate Brands</a>
+</li></ul>-->
+<!--
 <p>
 <a href="http://piratebrands.com."><img src="images/PB_sm.jpg" /></a>
 </p>
+-->
 <?php require("/var/www/mitmunc/template/footer.php"); ?>

@@ -7,7 +7,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 
 <h2>Disarmament &amp; International Security Committee</h2>
 Chairs: Anvisha Pai, Ryan McDermott<br />
-Email the chairs: <?php echo obfuscateEmail("disec2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("disec2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/disec.pdf">Background Guide</a>
@@ -26,7 +26,7 @@ This has been mostly relevant with a few recent conflicts--for example, Libya wh
 
 <h2>UN Human Rights Council</h2>
 Chairs: Bahar Shah, Michael Veldman<br />
-Email the chairs: <?php echo obfuscateEmail("hrc2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("hrc2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/hrc.pdf">Background Guide</a>
@@ -38,7 +38,7 @@ Email the chairs: <?php echo obfuscateEmail("hrc2012@mitmunc.org"); ?>
 
 <h2>International Atomic Energy Agency</h2>
 Chairs: Aditi Verma, Abdulhamid Haidar<br />
-Email the chairs: <?php echo obfuscateEmail("iaea2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("iaea2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/disec.pdf">Background Guide</a>
@@ -58,7 +58,7 @@ Email the chairs: <?php echo obfuscateEmail("iaea2012@mitmunc.org"); ?>
 
 <h2>Triumvirate Council On The Issue of Sudan</h2>
 Chairs: Eyas Alsharaiha, Whitney Loo, Ronald Chen, Jenny Hu, Noor Alsharif, Ahmed Hussain, Pranav Ramkrishnan<br />
-Email the chairs: <?php echo obfuscateEmail("triumvirate2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("triumvirate2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/triumvirate.pdf">Background Guide</a>
@@ -68,7 +68,7 @@ Email the chairs: <?php echo obfuscateEmail("triumvirate2012@mitmunc.org"); ?>
 
 <h2>United Nations Development Program</h2>
 Chairs: Noga Feinberg, Tamara Djordjevic<br />
-Email the chairs: <?php echo obfuscateEmail("undp2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("undp2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/undp.pdf">Background Guide</a>
@@ -94,7 +94,7 @@ Email the chairs: <?php echo obfuscateEmail("undp2012@mitmunc.org"); ?>
 
 <h2>United Nations Environmental Program</h2>
 Chairs: Muneeza Patel, Daniel Stallworth, Mathilde Chaudron<br />
-Email the chairs: <?php echo obfuscateEmail("unep2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("unep2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/unep.pdf">Background Guide</a>
@@ -141,7 +141,7 @@ Email the chairs: <?php echo obfuscateEmail("unep2012@mitmunc.org"); ?>
 
 <h2>United Nations Educational Scientific and Cultural Organization</h2>
 Chairs: Miriam Prosnitz, Defne Gurel<br />
-Email the chairs: <?php echo obfuscateEmail("unesco2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("unesco2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/unesco.pdf">Background Guide</a>
@@ -153,7 +153,7 @@ Email the chairs: <?php echo obfuscateEmail("unesco2012@mitmunc.org"); ?>
 
 <h2>United Nations Security Council</h2>
 Chairs: Arianna Moshary, Nevin Daniel, Sabina Maddila<br />
-Email the chairs: <?php echo obfuscateEmail("unsc2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("unsc2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/unsc.pdf">Background Guide</a>
@@ -172,10 +172,10 @@ Email the chairs: <?php echo obfuscateEmail("unsc2012@mitmunc.org"); ?>
 
 <h2>World Food Program</h2>
 Chairs: Maria Gariboldi, Shadab Dawood<br />
-Email the chairs: <?php echo obfuscateEmail("wfp2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("wfp2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
-<a href="/mitmunc2012/bg/disec.pdf">Background Guide</a>
+<a href="/mitmunc2012/bg/wfp.pdf">Background Guide</a>
 <h3>The Question of Famine and Agricultural Development in the Horn of Africa</h3>
 <p>This question is particularly concerned with the recent famine in Somalia. Particular attention should be directed towards the causes and effects of the droughts that cause food shortages. Moreover, particular attention should be given to the recent phenomenon of desertification. Besides tackling the need for immediate food supplies and other forms of humanitarian aid, delegates should focus on the development of political, social, economic and particularly agricultural conditions in order to solve the problem in the long-term.</p>
 <h3>The Question of Market Stabilization and Local Economy Stimulation in Asia</h3>
@@ -184,7 +184,7 @@ Email the chairs: <?php echo obfuscateEmail("wfp2012@mitmunc.org"); ?>
 
 <h2>World Health Organization</h2>
 Chairs: James Yeung, Nursen Ogutveren<br />
-Email the chairs: <?php echo obfuscateEmail("who2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("who2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/who.pdf">Background Guide</a>
@@ -196,7 +196,7 @@ Email the chairs: <?php echo obfuscateEmail("who2012@mitmunc.org"); ?>
 
 <h2>World Trade Organization</h2>
 Chairs: Isabella Wei, Jennifer Sangliana<br />
-Email the chairs: <?php echo obfuscateEmail("wto2012@mitmunc.org"); ?>
+Email the chairs: <?php echo obfuscateEmail("wto2012@mitmunc.mit.edu"); ?>
 <br /><br />
 <h2>Topics:</h2>
 <a href="/mitmunc2012/bg/wto.pdf">Background Guide</a>

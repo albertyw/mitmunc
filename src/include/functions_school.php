@@ -125,7 +125,7 @@ class school {
         }
 	
 	//Chosun doesn't pay
-	if($this->schoolName == "Chosuneducation" || $this->schoolName == "Worldview Education"){
+	if(strpos(strtolower($this->schoolName),"chosun") !== False || strpos(strtolower($this->schoolName),"worldview") !== False){
 	    $this->schoolFee = 0;
 	    $this->delegateFee = 0;
 	}

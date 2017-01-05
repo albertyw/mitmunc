@@ -158,7 +158,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 
 <p><h2>17. Notices</h2></p>
 
-<p>All notices to a party shall be in writing and shall be made either via email or conventional mail. Notices to us must be sent to the attention of Customer Service at <?php echo obfuscateEmail('sg@mitmunc.org'); ?>, if by email, or at Massachusetts Institute of Technology Model United Nations Conference 84 Masachusetts Ave if by conventional mail. Notices to you may be sent to the address supplied by you as part of your Registration Data. In addition, we may broadcast notices or messages through the site to inform you of changes to the site or other matters of importance, and such broadcasts shall constitute notice to you at the time of sending.</p>
+<p>All notices to a party shall be in writing and shall be made either via email or conventional mail. Notices to us must be sent to the attention of Customer Service at <?php echo obfuscateEmail('sg@mitmunc.mit.edu'); ?>, if by email, or at Massachusetts Institute of Technology Model United Nations Conference 84 Masachusetts Ave if by conventional mail. Notices to you may be sent to the address supplied by you as part of your Registration Data. In addition, we may broadcast notices or messages through the site to inform you of changes to the site or other matters of importance, and such broadcasts shall constitute notice to you at the time of sending.</p>
 
 <p><h2>18. Entire Agreement</h2></p>
 
@@ -180,7 +180,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 
 <p><h2>20. Contact Information</h2></p>
 
-<p>Except as explicitly noted on this site, the services available through this site are offered by Massachusetts Institute of Technology Model United Nations Conference located at 84 Masachusetts Ave. Our telephone number is (601) 564-8686 . If you notice that any user is violating these Terms of Use, please contact us at <?php echo obfuscateEmail('sg@mitmunc.org') ?>.</p><h2>Terms and Conditions of Sale</h2>
+<p>Except as explicitly noted on this site, the services available through this site are offered by Massachusetts Institute of Technology Model United Nations Conference located at 84 Masachusetts Ave. Our telephone number is (601) 564-8686 . If you notice that any user is violating these Terms of Use, please contact us at <?php echo obfuscateEmail('sg@mitmunc.mit.edu') ?>.</p><h2>Terms and Conditions of Sale</h2>
 
 <p><h2>1. Sale and Purchase of Goods</h2></p>
 

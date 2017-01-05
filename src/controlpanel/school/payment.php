@@ -36,8 +36,9 @@ echo '</table>';
 ?>
 </p>
 <p>
+'Your school fee is due October 26, 2014.'<br />
 <?php
-echo 'Your school fee is due '.date('F j, Y', $school->schoolFeeDue).'.<br />';
+// echo 'Your school fee is due '.date('F j, Y', $school->schoolFeeDue).'.<br />';
 echo 'Your total payment is due '.date('F j, Y', $school->totalPaymentDue).'.<br />';
 ?>
 </p>
@@ -48,7 +49,7 @@ See the <a href="/df">deadlines and fees page</a> for more details.
 </p>
 
 <p>
-If you requested financial aid but that is not accurately reflected in the above information, please send an email to <?php echo obfuscateEmail('info@mitmunc.org'); ?>.
+If you requested financial aid but that is not accurately reflected in the above information, please send an email to <?php echo obfuscateEmail('info-mitmunc@mit.edu'); ?>.
 </p>
 
 <p><b>To make the conference fee payment, please write a check for the amount owed above, payable to "MIT Model UN", with your school name in the memo field.  
@@ -61,11 +62,11 @@ echo generalInfoReader('mailingAddress');
 </p>
 
 <p>
-We can also process wire transfers for payment. For wire transfers, it is very important that, in addition to the bank information, you enter into the Payment Detail (or similar) section <b>both</b> the number "2720783" <b>and</b> the name of your school. The former will enable MIT to receive and direct the funds to our organization and the latter will allow us to easily determine which schools have sent in their fees.  Please email <?php echo obfuscateEmail('cfo@mitmunc.org'); ?> for more information.<br />
+We can also process wire transfers for payment. <!--For wire transfers, it is very important that, in addition to the bank information, you enter into the Payment Detail (or similar) section <b>both</b> the number "2720783" <b>and</b> the name of your school. The former will enable MIT to receive and direct the funds to our organization and the latter will allow us to easily determine which schools have sent in their fees.-->  Please email <?php echo obfuscateEmail('cfo-mitmunc@mit.edu'); ?> for more information if you plan to pay via wire transfer.<br />
 </p>
 
 <p>
-Note: in order to expedite processing of your check, please email <?php echo obfuscateEmail('cfo@mitmunc.org'); ?> to let us know that we are expecting a check.
+Note: in order to expedite processing of your check, please email <?php echo obfuscateEmail('cfo-mitmunc@mit.edu'); ?> to let us know that we are expecting a check.
 </p>
 
 

@@ -19,19 +19,19 @@ TODAY if you haven't already.  MITMUNC delegations currently have a reduced
 rate at the Marriott hotel, which is very close to the conference building on 
 MIT's campus.  After January 13, however, the rates will revert to their normal 
 Marriott prices and rooms will not be guaranteed.  Information about the 
-Marriott is available at <a href="http://www.mitmunc.org/accommodations">
-http://www.mitmunc.org/accommodations.php</a></li>
+Marriott is available at <a href="http://mitmunc.mit.edu/accommodations">
+http://mitmunc.mit.edu/accommodations.php</a></li>
 <li>Delegates should be reminded that all of them will need to submit 
 position papers by Sunday, January 30.  Position papers for all committees 
 should be one page total (about half a page per topic) single spaced.  
 Information about writing position papers is available at 
-<a href="http://www.mitmunc.org/preparation">http://www.mitmunc.org/preparation.php</a>.</li>
+<a href="http://mitmunc.mit.edu/preparation">http://mitmunc.mit.edu/preparation.php</a>.</li>
 <li>Since we are planning on serving refreshments to the delegates, please tell 
 us as soon as possible if you, your fellow advisers, or delegates have any food 
 allergies.  All delegates also need to submit a liability and medical form which
-is found at http://www.mitmunc.org/mitmunc2011/liability2011.pdf.  Information about 
+is found at http://mitmunc.mit.edu/mitmunc2011/liability2011.pdf.  Information about 
 the position paper, liability/medical form, and other requirements is available 
-at <a href="http://www.mitmunc.org/preparation">http://www.mitmunc.org/preparation.php</a>.</li>
+at <a href="http://mitmunc.mit.edu/preparation">http://mitmunc.mit.edu/preparation.php</a>.</li>
 <li>We're sorry that background guides have taken so long to be posted.  
 We originally planned on having background guides posted shortly after 
 Thanksgiving, but as MIT's finals were only two weeks afterwards, the chairs 
@@ -40,7 +40,7 @@ the CSTD committee's guide has been posted on the website on their respective
 pages.</li>
 </ul>
 <p>If you have any questions or concerns, please email us at info at 
-mitmunc.org</p>
+mitmunc.mit.edu</p>
 <br />
 Albert Wang<br />
 MITMUNC 2011 Charge d'Affaires<br />

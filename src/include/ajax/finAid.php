@@ -11,7 +11,7 @@ for($i=0;$i<=5;$i++){
 }
 $school->saveInfo();
 
-// E-mail submit notification to info@mitmunc.org
+// E-mail submit notification to info@mitmunc.mit.edu
 $message = "<p>The financial aid application from $school->schoolName has been updated.</p>";
 $message .= 'Why do you feel you/your school should receive financial aid for MITMUNC 2012?<br />';
 $message .= $school->finaidQuestion[1].'<br />';
@@ -30,4 +30,4 @@ $message .= $school->finaidQuestion[5].'<br />';
 $message .= '<br />';
 
 $subject = "MITMUNC 2012 Financial Aid Application ($school->schoolName)";
-sendEmail("info@mitmunc.org", $subject ,$message);
+sendEmail("info@mitmunc.mit.edu", $subject ,$message);

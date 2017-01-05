@@ -163,10 +163,10 @@ function validEmail($email){
 
 /**
  * Send email.  This function also archives old messages into the database
- * This function also cc's info@mitmunc.org with every email
+ * This function also cc's info-mimtunc@mit.edu with every email
  * Defaults to HTML mail
  **/
-function sendEmail($to, $subject, $message, $from='MITMUNC <info@mitmunc.org>'){
+function sendEmail($to, $subject, $message, $from='MITMUNC <info-mitmunc@mit.edu>'){
     $headers = "MIME-Version: 1.0\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1\n";
     $headers .= "From: $from\n";
@@ -187,13 +187,13 @@ function sendEmail($to, $subject, $message, $from='MITMUNC <info@mitmunc.org>'){
     mysql_query("INSERT INTO emails (`accessCode`, `from`, `to`, `subject`, `message`) 
         VALUES('$accessCode', '$fromEscaped', '$toEscaped', '$subjectEscaped', '$messageEscaped')") or die(mysql_error());
     
-    $handle = fopen("http://www.mitmunc.org/template/email?accessCode=".$accessCode, "rb");
+    $handle = fopen("http://mitmunc.mit.edu/template/email?accessCode=".$accessCode, "rb");
     $formattedMessage = stream_get_contents($handle);
     fclose($handle);
     
-    mail($to, $subject, $formattedMessage, $headers);
-    if($to != 'info@mitmunc.org'){
-        mail('info@mitmunc.org', $subject, $formattedMessage, $headers);
+     mail($to, $subject, $formattedMessage, $headers);
+      if($to != 'info-mitmunc@mit.edu'){
+        mail('info-mitmunc@mit.edu', $subject, $formattedMessage, $headers);
     }
 }
 ?>

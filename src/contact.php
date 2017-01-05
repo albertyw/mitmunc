@@ -4,7 +4,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 
 <h1>Contact Us</h1>
 <b>Email:</b>
-<?php echo obfuscateEmail('info@mitmunc.org'); ?> (preferred method)
+<?php echo obfuscateEmail('mun-exec@mit.edu'); ?> (preferred method)
 <br />
 <br />
 <b>Phone:</b><br />

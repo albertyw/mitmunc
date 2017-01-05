@@ -28,4 +28,4 @@ $message .= $mealTicket->mealNotes;
 $message .= '<br />';
 
 $subject = 'MITMUNC School Lunch Update ('.school::getSchoolName($mealTicket->schoolId).')';
-sendEmail('coo@mitmunc.org', $subject, $message);
+sendEmail('coo@mitmunc.mit.edu', $subject, $message);

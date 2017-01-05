@@ -5,9 +5,9 @@ require("/var/www/mitmunc/template/header.php"); ?>
 <a href="/mitmunc2009/committee2009">MITMUNC 2009 Committees</a>
 
 <h1>International Atomic Energy Agency</h1>Chairs: Aditi Verma, Debora Slutsky<br />Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "iaea2010" + "@";
-var part3 = "iaea2010 at mitmunc.org";
+var part3 = "iaea2010 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -19,9 +19,9 @@ document.write(part3 + '</a>');
 
 
 <h1>United Nations Security Council</h1>Chairs: Radhika Malik, Eyas B Alsharaiha, Bahar Shah<br />Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "unsc2010" + "@";
-var part3 = "unsc2010 at mitmunc.org";
+var part3 = "unsc2010 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -33,9 +33,9 @@ document.write(part3 + '</a>');
 
 
 <h1>World Trade Organization</h1>Chairs: Ahmed Hussain, Pranav Ramkrishnan<br />Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "wto2010" + "@";
-var part3 = "wto2010 at mitmunc.org";
+var part3 = "wto2010 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -47,9 +47,9 @@ document.write(part3 + '</a>');
 
 
 <h1>World Health Organization</h1>Chairs: Nikita Consul, Arianna Moshary<br />Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "who2010" + "@";
-var part3 = "who2010 at mitmunc.org";
+var part3 = "who2010 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -61,9 +61,9 @@ document.write(part3 + '</a>');
 
 
 <h1>United Nations Environment Programme</h1>Chairs: Arfa Aijazi, Yangbo Du, Jaclyn Wilson<br />Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "unep2010" + "@";
-var part3 = "unep2010 at mitmunc.org";
+var part3 = "unep2010 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>

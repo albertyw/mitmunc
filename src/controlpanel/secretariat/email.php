@@ -48,7 +48,7 @@ echo '<td>'.$row['to'].'</td></tr>';
 echo '<tr><th>Subject:</th>';
 echo '<td>'.$row['subject'].'</td></tr>';
 echo '<tr><th>Formatted Email:</th>';
-echo '<td><a href="http://www.mitmunc.org/template/email?accessCode='.$row['accessCode'].'">View</a>';
+echo '<td><a href="http://mitmunc.mit.edu/template/email?accessCode='.$row['accessCode'].'">View</a>';
 echo '</table>';
 echo '<b>Message:</b><br />';
 echo $row['message'].'<br /><br />';

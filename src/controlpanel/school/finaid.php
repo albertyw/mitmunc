@@ -52,7 +52,7 @@ echo '<br />';
 
 echo '<div id="finAidForm">';
 echo '<input type="hidden" id="schoolId" value="'.$school->schoolId.'">';
-echo 'Why do you feel you/your school should receive financial aid for MITMUNC 2013?<br />';
+echo 'Why do you feel you/your school should receive financial aid for MITMUNC 2015?<br />';
 echo '<textarea type="text" id="question1" rows="5" cols="100">'.$school->finaidQuestion[1].'</textarea><br />';
 echo '<br />';
 echo 'Does your organization receive any funds from your school in order to operate?  If so, how much and what does the funding usually go towards?<br />';

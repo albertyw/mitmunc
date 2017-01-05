@@ -3,10 +3,10 @@ $title = "MITMUNC - Registration";
 include ("/var/www/mitmunc/template/header.php");
 ?>
 <script type="text/javascript" src="include/registration.js"></script>
-<h1>Registration</h1>
-<p>Registration for MITMUNC 2013 is now closed.</p>
-<?
-/*
+
+<h1>Attention: This webpage is for registration of MITMUNC VIII 2016. To register for MITMUNC IX 2017, to be held on Friday, February 10th through Sunday, February 12th, 2017, please visit <a href="http://bit.ly/MITMUNCRedirectFromOldSite">www.MITMUNC.org</a></h1>
+
+
 <p>Registration is a six step process:</p>
 <ol style="list-style-position: inside;">
   <li>
@@ -144,8 +144,10 @@ include ("/var/www/mitmunc/template/header.php");
   <br />
   A password will be emailed to you when you register.
 </div>
-*/
-?>
+
+
+
+<!--Registration will open on <?php echo date('F j, Y', generalInfoReader('regularRegDeadline')); ?>.-->
 <?php
   include ("/var/www/mitmunc/template/footer.php");
 ?>

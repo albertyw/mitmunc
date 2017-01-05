@@ -73,6 +73,8 @@ $pay = new RegistrationTask("Make Payment", "/controlpanel/school/payment",
 $pay->addSideAction("/controlpanel/school/invoice", "See Invoice");
 $countries = new RegistrationTask("Apply for Countries", "/controlpanel/school/countrypref",
     function() { // Availability
+        //CHANGED;
+        //return false;
         return true;
     },
     function() { // Necessity
@@ -164,7 +166,7 @@ $accommodations = new RegistrationTask("Hotel and Transportation Information", "
     });
 $liability_medical = new RegistrationTask("MITMUNC Liability &amp; Medical Forms", "/controlpanel/school/liability",
     function() { // Availability
-        return false;
+        return true;
     },
     function() { // Necessity
         return false;

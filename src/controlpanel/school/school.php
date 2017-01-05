@@ -105,7 +105,7 @@ echo '<div id="countryselection">';
 for($i = 1; $i <=10; $i++){
     echo ordinalNumber($i).' Choice: '.$school->countryName[$i].'<br />';
 }
-echo '<a href="/controlpanel/school/countrypref">Change Countries</a><br /><br />';
+// echo '<a href="/controlpanel/school/countrypref">Change Countries</a><br /><br />';
 echo '</div>';
 echo '<br /><br />';
 

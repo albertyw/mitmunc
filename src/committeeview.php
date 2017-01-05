@@ -16,13 +16,29 @@ $title = "MITMUNC - ".$committee->shortName." Committee";
 require("/var/www/mitmunc/template/header.php"); ?>
 <?php
 echo '<h1>'.$committee->committeeName.'</h1>';
+
+echo "<br/>";
+if($committee->shortName != "ECOSOC"){
+	echo "<a href='../mitmunc2016/bg/".$committee->shortName.".pdf'>Background Guide</a>";
+	echo "<br/>";
+} elseif ($committee->shortName == "ECOSOC"){
+	echo "<a href='../mitmunc2016/bg/".$committee->shortName.".pdf'>Background Guide</a>";
+	echo "<br/>";
+
+}else{
+	echo "<b>Background guide coming soon.</b>";
+}
+
+echo "<h2>Topics</h2>";
+
+
 echo commaSeparate(array_map(function($userId){$user = new user($userId); return $user->realName;}, $committee->chairs)).'<br />';
-echo 'Email the chairs: '.obfuscateEmail($committee->email.'@mitmunc.org');
+echo 'Email the chairs: '.obfuscateEmail($committee->email.'@mit.edu');
 echo '<br /><br />';
 
 echo '<h2>Announcements</h2>';
 echo $committee->announcement.'<br />';
-echo '<br />';
+
 
 
 $numTopics = 0;
@@ -41,10 +57,11 @@ foreach($committee->topic as $id => $topic){
     if($committee->topic[$id] != ''){
         echo '<h3>'.$committee->topic[$id].'</h3>';
         if($committee->topicBg[$id] !='')
-            echo '<a href="'.$committee->topicBg[$id].'">Background Guide</a><br />';
+            echo "";/*echo '<a href="'.$committee->topicBg[$id].'">Background Guide</a><br />';*/
         echo $committee->topicDescription[$id];
         echo '<br />';
     }
 }
+
 ?>
 <?php require("/var/www/mitmunc/template/footer.php");?>

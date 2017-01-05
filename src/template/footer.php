@@ -3,7 +3,7 @@
 <footer>
     <div id="footerstripe">
         <p>Questions? Contact us at 
-        <?php echo obfuscateEmail("info@mitmunc.org"); ?>
+        <?php echo obfuscateEmail("info-mitmunc@mit.edu"); ?>
         </p>
     </div> <!-- id="footerstripe" !-->
 
@@ -18,6 +18,7 @@
         <a href="/about">About us</a>
         <ul>
           <li><a href="/about">about</a></li>
+          <li><a href="/sponsors">sponsors</a></li>
           <li><a href="/letter">invitation</a></li>
           <li><a href="/secretariat">secretariat</a></li>
           <li><a href="/boston">boston</a></li>

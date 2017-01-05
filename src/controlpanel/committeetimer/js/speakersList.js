@@ -22,7 +22,7 @@ function load_countries(){
     // This function does an ajax request that loads the list of all available 
     // countries
     $.ajax({
-      url: 'https://www.mitmunc.org/controlpanel/committeetimer/ajax/get_countries',
+      url: 'http://mitmunc.mit.edu/controlpanel/committeetimer/ajax/get_countries',
       async: false,
       success: function(data) {
         countries = jQuery.parseJSON(data);
@@ -33,7 +33,7 @@ function load_countries(){
 function timer_log(){
     // Display the Speakers List
     $.post(
-        'https://www.mitmunc.org/controlpanel/committeetimer/ajax/timer_log',
+        'http://mitmunc.mit.edu/controlpanel/committeetimer/ajax/timer_log',
         {
             committee:committee
         },
@@ -48,7 +48,7 @@ function timer_log_new(){
     country = $("#speakers_list_input").val();
     
     $.post(
-        'https://www.mitmunc.org/controlpanel/committeetimer/ajax/timer_log_new',
+        'http://mitmunc.mit.edu/controlpanel/committeetimer/ajax/timer_log_new',
         {
             country:country,
             committee:committee
@@ -64,7 +64,7 @@ function timer_log_new(){
 function timer_log_delete(timer_log_id){
     // Delete Speaker from Speakers List and Refresh
     $.post(
-        'https://www.mitmunc.org/controlpanel/committeetimer/ajax/timer_log_delete',
+        'http://mitmunc.mit.edu/controlpanel/committeetimer/ajax/timer_log_delete',
         {
             timer_log_id:timer_log_id
         },

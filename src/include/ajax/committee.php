@@ -9,7 +9,7 @@ $committee = new committee($committeeId);
 echo 'Committee Name: <input type="text" id="committeeName" size="50" value="'.$committee->committeeName.'" /><br />';
 echo 'Committee Chairs: '.commaSeparate(array_map(function($userId){$user = new user($userId); return $user->realName;}, $committee->chairs)).'<br />';
 echo 'Committee Abbreviation: <input type="text" id="shortName" size="7" value="'.$committee->shortName.'" /><br />';
-echo 'Committee Email: <input type="text" id="email" value="'.$committee->email.'" />@mitmunc.org<br />';
+echo 'Committee Email: <input type="text" id="email" value="'.$committee->email.'" />@mitmunc.mit.edu<br />';
 echo '<b>Announcements</b>:<br />';
 echo '<textarea id="announcement" class="ckeditor" cols="100" rows="5">'.$committee->announcement.'</textarea><br />';
 echo '<br />';

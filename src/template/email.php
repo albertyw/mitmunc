@@ -24,13 +24,13 @@ $row = mysql_fetch_array($result);
                 <tr>
                     <td height="15px"><font size="2">
                     Cannot view this email?  
-                    <a href="http://www.mitmunc.org/template/email?accessCode=<?php echo $accessCode; ?>">
+                    <a href="http://mitmunc.mit.edu/template/email?accessCode=<?php echo $accessCode; ?>">
                     Click Here</a></font>
-                    <img src="http://www.mitmunc.org/images/emailTracking.gif">
+                    <img src="http://mitmunc.mit.edu/images/emailTracking.gif">
                     </td>
                 </tr>
                 <tr>
-                    <td align="center" height="94px"><img src="http://www.mitmunc.org/images/header/Header_Logo.gif" alt="MITMUNC"></td>
+                    <td align="center" height="94px"><img src="http://mitmunc.mit.edu/images/header/Header_Logo.gif" alt="MITMUNC"></td>
                 </tr>
                 <tr>  
                     <td valign="top"><?php echo $row['message']; ?></td>  

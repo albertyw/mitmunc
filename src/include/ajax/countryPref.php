@@ -17,7 +17,7 @@ $school->saveInfo();
 
 $school = new school($SESSION->schoolId);
 
-$to  = 'info@mitmunc.org';
+$to  = 'info@mitmunc.mit.edu';
 $subject = 'MITMUNC country preference submission';
 $message = '
 The school '.$school->schoolName.' has submitted new country preferences:<br />';

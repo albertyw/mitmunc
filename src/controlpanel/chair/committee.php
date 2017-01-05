@@ -34,7 +34,7 @@ echo '<div id="committeeinfo">';
 echo 'Committee Name: '.$committee->committeeName.'<br />';
 echo 'Committee Chairs: '.commaSeparate(array_map(function($userId){$user = new user($userId); return $user->realName;}, $committee->chairs)).'<br />';
 echo 'Committee Abbreviation: '.$committee->shortName.'<br />';
-echo 'Committee Email: '.obfuscateEmail($committee->email.'@mitmunc.org').'</br />';
+echo 'Committee Email: '.obfuscateEmail($committee->email.'@mit.edu').'</br />';
 echo '<a href="/committee/'.$committee->shortName.'">Committee Page</a><br /><br />';
 echo '<b>Announcements</b>:<br /> '.$committee->announcement.'<br />';
 echo '<br />';

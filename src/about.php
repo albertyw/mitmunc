@@ -5,6 +5,7 @@ require("/var/www/mitmunc/template/header.php");
 <h1>About MITMUNC</h1>
 <div  style="text-align:center">
 <a href="about">About</a>
+<a href="sponsors">Sponsors</a>
 <a href="letter">Invitation</a>  
 <a href="secretariat">Secretariat</a>  
 <a href="boston">Boston</a> 

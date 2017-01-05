@@ -7,9 +7,9 @@ require("/var/www/mitmunc/template/header.php"); ?>
 <h1>Advisory Panel on the Question of Darfur</h1>
 Chairs: Eyas Alsharaiha, Pranav Alsharaiha<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "advisory2011" + "@";
-var part3 = "advisory2011 at mitmunc.org";
+var part3 = "advisory2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -22,9 +22,9 @@ Question of Darfur<br />
 <h1>Commission on Science and Technology for Development</h1>
 Chairs: Victoria Lu, Tanya Liu<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "cstd2011" + "@";
-var part3 = "cstd2011 at mitmunc.org";
+var part3 = "cstd2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -38,9 +38,9 @@ New and Emerging Energy Technologies<br />
 <h1>Social, Humanitarian, and Cultural Committee</h1>
 Chairs: Arianna Moshary, Jaclyn Wilson<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "sochum2011" + "@";
-var part3 = "sochum2011 at mitmunc.org";
+var part3 = "sochum2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -54,9 +54,9 @@ Drug Trafficking<br />
 <h1>United Nations Development Program</h1>
 Chairs: Ofir Nachum, Oliver Huang<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "undp2011" + "@";
-var part3 = "undp2011 at mitmunc.org";
+var part3 = "undp2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -70,9 +70,9 @@ Corruption in Public Institutions<br />
 <h1>United Nations Security Council</h1>
 Chairs: Albert Wang, Bahar Shah, Emad Taliep, Suan Tuang<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "unsc2011" + "@";
-var part3 = "unsc2011 at mitmunc.org";
+var part3 = "unsc2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -86,9 +86,9 @@ Bioterrorism<br />
 <h1>World Health Organization</h1>
 Chairs: Nikita Consul, James Yeung, Vladislav Kontsevoi<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "who2011" + "@";
-var part3 = "who2011 at mitmunc.org";
+var part3 = "who2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>
@@ -102,9 +102,9 @@ Growth of Antimicrobial Resistance<br />
 <h1>World Trade Organization</h1>
 Chairs: Cory Hernandez, Yangbo Du<br />
 Email the chairs: <script type="text/javascript">
-var part2 = "mitmunc.org";
+var part2 = "mitmunc.mit.edu";
 var part1 = "wto2011" + "@";
-var part3 = "wto2011 at mitmunc.org";
+var part3 = "wto2011 at mitmunc.mit.edu";
 document.write('<a href="mai' + 'lto:' + part1 + part2 + '">');
 document.write(part3 + '</a>');
 </script>

@@ -45,6 +45,8 @@ die();
 }
 ?>
 
+
+
 <p>This page will allow you to apply for countries or view your country assignments.  
 Please note that the Secretariat can only confirm your country assignment after you make your school's conference fee payment.  </p>
 
@@ -59,7 +61,7 @@ Blank cells mean no delegate from the country is on the committee.
 <p>
 The triumvirate committees have their own application process that is not part of the country selection process.  
 More information about the 
-triumvirate committees can be found on its <a href="/committee/TRIUMVIRATE">committee page</a>.
+triumvirate committees can be found on its <a href="/committeeview?committee=TRI">committee page</a>.
 </p>
 
 <br /><br />
@@ -113,6 +115,7 @@ echo '</div>';
 echo '<br />';
 
 ?>
+
 
 <a href="/controlpanel/">Back To Control Panel</a>
 <?php require("/var/www/mitmunc/template/footer.php"); ?>

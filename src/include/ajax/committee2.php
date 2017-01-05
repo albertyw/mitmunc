@@ -16,7 +16,7 @@ $committee->saveInfo();
 $committee = new committee($committee->committeeId);
 
 // multiple recipients
-$to  = 'sg@mitmunc.org, usg@mitmunc.org';
+$to  = 'sg@mitmunc.mit.edu, usg@mitmunc.mit.edu';
 
 // subject
 $subject = 'Change In Committee Information ('.$committee->shortName.')';
@@ -27,7 +27,7 @@ $message .= 'Current information:<br />';
 $message .= 'Committee Name: '.$committee->committeeName.'<br />';
 $message .= 'Committee Chairs: '.commaSeparate(array_map(function($userId){$user = new user($userId); return $user->realName;}, $committee->chairs)).'<br />';
 $message .= 'Committee Abbreviation: '.$committee->shortName.'<br />';
-$message .= 'Committee Email: '.$committee->email.'@mitmunc.org</br />';
+$message .= 'Committee Email: '.$committee->email.'@mitmunc.mit.edu</br />';
 $message .= '<a href="/committee/'.$committee->shortName.'">Committee Page</a><br /><br />';
 $message .= '<b>Announcements</b>:<br /> '.$committee->announcement.'<br />';
 $message .= '<br />';

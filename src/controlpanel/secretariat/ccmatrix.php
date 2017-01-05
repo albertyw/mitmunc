@@ -77,7 +77,7 @@ $ccMatrix = new ccMatrix();
 $countrySum = array();
 // Display the matrix
 
-echo '<table>';
+echo '<table >';
 // Committees
 echo '<tr>';
     echo '<th></th>';
@@ -107,11 +107,18 @@ echo '<tr>';
             foreach($ccMatrix->matrix[$committeeId] as $countryId=>$value){
                 echo '<div class="ccShow ccHeight">';
                 if($value== '1'){
-                    echo 'Y';
+                    echo '1';
                     $countrySum[$countryId]++;
+                }else if($value== '2'){
+                    echo '2';
+                    $countrySum[$countryId]+=2;
+                }else if($value== '3'){
+                    echo '3';
+                    $countrySum[$countryId]+=2;
                 }else{
                     echo '&nbsp;';
                 }
+                
                 echo '</div>';
                 echo '<div class="ccEdit ccHeight">';
                 echo '<input type="text" id="committee'.$committeeId.' country'.$countryId.'" ';
@@ -147,7 +154,7 @@ echo '</table>';
 Reloading the matrix means the matrix committees and country list is rebuilt from 
 the list of committees and countries.  Although this will try to keep old data, 
 reloading the matrix has the potential to lose a lot of data, but will be useful 
-when for a new conference.  
+ for a new conference.  
 <br />
 <br />
 <a href="/controlpanel/">Back To Control Panel</a>

@@ -12,6 +12,9 @@ $school = new school($SESSION->schoolId);
 $mealTicket = new mealTicket($SESSION->schoolId);
 
 ?>
+
+
+
 <table border="0" cellpadding="20">
 <tr><td>
 <b>Bill To:</b><br />
@@ -23,15 +26,18 @@ $mealTicket = new mealTicket($SESSION->schoolId);
 <b>Invoice Date:</b> <?php echo date('F j, Y') ?><br />
 <b>Registration Date:</b> <?php echo date('F j, Y', strtotime($school->regTime)) ?><br />
 <b>Amount Due:</b> <?php echo $school->totalOwedFormatted ?><br />
-<b>School Fee Due:</b> <?php echo date('F j, Y', $school->schoolFeeDue) ?><br />
-<b>Total Fees Due:</b> <?php echo date('F j, Y', $school->totalPaymentDue) ?><br />
+<b>School Fee Due: </b> October 26, 2014 <br/>
+<!-- <b>School Fee Due:</b> <?php echo date('F j, Y', $school->schoolFeeDue) ?><br /> -->
+<b>Payment Fee Due: $<span id="pay_fee">0</span><br/>
+<b>Total Fees Due:</b> <?php echo date('F j, Y', $school->totalPaymentDue) ?><br /> <br />
+
 </td>
-<td>
 <?php
 echo generalInfoReader('mailingAddress');
 ?>
+<td>
 Phone: 601-564-8686<br />
-E-mail: <?php echo obfuscateEmail("info@mitmunc.org");?><br />
+E-mail: <?php echo obfuscateEmail("info-mitmunc@mit.edu");?><br />
 </td></tr>
 </table>
 
@@ -69,9 +75,11 @@ Amount Enclosed: ______________</b><br />
 </div>
 <div>
 Please Mail Payment With A Copy Of This Invoice To:<br />
+
 <?php
 echo generalInfoReader('mailingAddress');
 ?>
+
 601-564-8686<br />
 </div>
 </body>

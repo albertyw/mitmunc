@@ -71,11 +71,14 @@ $(function(){
     s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<style rel="stylesheet" type="text/css">
+
+</style>
 
 <!-- CHECK LOGGED IN !-->
 <?php
 if($SESSION->login) {
-  echo "<script type=\"text/javascript\" src=\"/include/checkencryption.js\"></script>";
+  // echo "<script type=\"text/javascript\" src=\"/include/checkencryption.js\"></script>";
   echo "<script type=\"text/javascript\">\nvar loggedin = true;\n</script>";
 } else {
   echo "<script type=\"text/javascript\">\nvar loggedin = false;\n</script>";

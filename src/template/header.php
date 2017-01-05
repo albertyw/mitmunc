@@ -49,17 +49,19 @@ require("/var/www/mitmunc/template/header_basic.php");
         </div>
       </div>
       <nav class="menu_item sublink" id="header2_link2">
-        <a href="/about">About</a> &middot; <a href="/letter">Invitation</a> &middot; <a href="/secretariat">Secretariat</a> &middot; <a href="/boston">Boston</a> &middot; <a href="/faq">FAQ</a> &middot; <a href="/contact">Contact</a>
+        <a href="/about">About</a> &middot; <a href="/sponsors">Sponsors</a> &middot; <a href="/letter">Invitation</a> &middot; <a href="/secretariat">Secretariat</a> &middot; <a href="/boston">Boston</a> &middot; <a href="/faq">FAQ</a> &middot; <a href="/contact">Contact</a>
       </nav>
       <nav class="menu_item sublink" id="header2_link3">
         <a href="/schedule">Schedule</a> &middot; <a href="/df">Deadlines/Fees</a> &middot; <a href="/accommodations">Accommodations</a> &middot; <a href="/preparation">Preparation</a>
       </nav>
+      
       <nav class="menu_item sublink" id="header2_link4">
+      
       <?php
       $committeeShortNames = committee::getAllCommitteeShortNames();
       $i = 1;
       foreach($committeeShortNames as $committeeId => $committeeShortName){
-          echo '<a href="/committee/'.$committeeShortName.'">'.$committeeShortName.'</a>';
+          echo '<a href="/committeeview?committee='.$committeeShortName.'">'.$committeeShortName.'</a>';
 	  //Also consider using $i%7==0, for auto-handling over 14 committees
           if($i==7 || $i == 13){
               echo '<br />';
@@ -80,7 +82,7 @@ require("/var/www/mitmunc/template/header_basic.php");
       </nav>
       <nav class="menu_item sublink login" id="header2_link6">
       <?php if (!$SESSION->login){ ?>
-          <form action="https://www.mitmunc.org/login" method="POST">
+          <form action="http://mitmunc.mit.edu/login" method="POST">
               Username:
               <input type="text" name="username">
               &nbsp;&nbsp;&nbsp;

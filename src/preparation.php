@@ -4,7 +4,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 <h1>Preparing for MITMUNC</h1>
 
 <h2>Position Papers</h2>
-<p>Position papers are due by email to delegates' respective chairs (see the committee pages for email addresses) by Thursday, January 31, at noon.  They are required for every committee and 
+<p>Position papers are due by email to delegates' respective chairs (see the committee pages for email addresses) by Saturday, January 31, at noon.  They are required for every committee and 
 are a prerequisite for consideration for delegate awards.</p>
 
 <p>The position paper is a pre-conference document that should be a statement of each delegates' position in the conference in an organized and logical format.  
@@ -74,11 +74,10 @@ us via e-mail as soon as possible as food will be served at the
 
 <h2>Dress Code</h2>
 <p>MITMUNC requires all delegates to be in formal western business attire 
-during all committee sessions, opening, and closing ceremonies.  Western 
-business attire for MITMUNC will be 
-defined as suits and ties for men and a jacket (optional) with skirt or 
-trousers, plus a blouse for women.  We will not allow jeans or sneakers in 
-committee.  Non-formal attire may be worn outside of committee sessions 
+during all committee sessions, opening, and closing ceremonies.  Western business attire
+ for MITMUNC will be defined as a suit, tie, and a jacket (optional) or blouse, with 
+ skirt or trousers.  We will not allow jeans or sneakers in committee.  Non-formal attire
+  may be worn outside of committee sessions 
 during the social events.  </p>
 
 <h2>Parliamentary Procedure</h2>

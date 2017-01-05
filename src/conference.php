@@ -7,6 +7,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 <a href="df">Deadlines and Fees</a>  
 <a href="accommodations">Accommodations</a>  
 <a href="preparation">Preparation</a>  
+<a href="map">Map</a>
 </div>
 <br />
 <p>MITMUNC will be held on <?php echo date('F j',generalInfoReader('conferenceStartDate'))?>-<?php echo date('j, Y',generalInfoReader('conferenceEndDate'))?> at MIT's campus across the Charles River from Boston in Cambridge, Massachusetts.  

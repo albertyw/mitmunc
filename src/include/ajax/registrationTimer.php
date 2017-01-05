@@ -22,14 +22,14 @@ $user = new user($user->userId);
 //Send email to secretariat
 $headers = "MIME-Version: 1.0
 Content-type: text/html; charset=iso-8859-1
-From: secretariat@mitmunc.org";
+From: secretariat@mitmunc.mit.edu";
 //Send email to registrant
 $message = "Hello  ".$user->realName."!<br />\n";
 $message .= "    Thank you so much for registering to use the MITMUNC committee timer.  
 <b>Your username is $user->username and your password is $password.</b>  
-You can now visit <a href=\"http://www.mitmunc.org/login\">http://www.mitmunc.org/login</a> to log into your committee timer account.";
-$message .="Jason Paller-Rzepka<br />";
-$message .="MITMUNC 2013 Webmaster<br />";
+You can now visit <a href=\"http://mitmunc.mit.edu/login\">http://mitmunc.mit.edu/login</a> to log into your committee timer account.";
+$message .="Colin McDonnell<br />";
+$message .="MITMUNC 2014 Webmaster<br />";
 sendEmail($user->email, 'MITMUNC Committee Timer Registration',$message);
    
 function generatePassword($length=9) {

@@ -32,7 +32,15 @@ nav#header1>ul {
 nav#header1>ul>li {
     margin: 0;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: bottom; /* was bottom */
+    color:black;
+    font:sans-serif;
+    font-size: 1.3em;
+}
+nav#header1>ul>li {
+    color:black;
+    font:sans-serif;
+    font-size: 1.3em;
 }
 
 #header1 img {

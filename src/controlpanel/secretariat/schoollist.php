@@ -9,7 +9,7 @@ $SESSION->securityCheck(true, array('secretariat', 'chair'));
 
 //Display list of schools
 echo '<table class="padded bordered">';
-echo '<tr><th>School Name</th><th># Students</th><th># Advisers</th><th>Registration Date</th><th>Amount Owed</th><th>Contact Person</th><th>Address</th><th>Status</th></tr>';
+echo '<tr><th>School Name</th><th>Adviser Email</th><th># Students</th><th># Advisers</th><th>Registration Date</th><th>Amount Owed</th><th>Contact Person</th><th>Address</th><th>Status</th></tr>';
 $result = mysql_query("SELECT id FROM school ORDER BY regTime");
 $totalAdvisers = 0;
 $totalStudents = 0;
@@ -22,6 +22,7 @@ while($row = mysql_fetch_array($result)){
     $totalAdvisers += $school->numAdvisers;
     $totalStudents += $school->numStudents;
     echo '<td><a href="/controlpanel/school/school?schoolId='.$school->schoolId.'">'.$school->schoolName.'</a></td>';
+    echo '<td><a href="mailto:'.$school->users[0]->email.'">'.$school->users[0]->email.'</a></td>';
     echo '<td>'.$school->numStudents.'</td>';
     echo '<td>'.$school->numAdvisers.'</td>';
     echo '<td>'.$school->regTime.'</td>';

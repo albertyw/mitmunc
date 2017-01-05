@@ -76,6 +76,7 @@ function checkRegisterButton(){
 }
 
 function registrationSubmit(){
+	alert("Registering..");
     runErrorChecking(errorChecking);
     if($("#submitButton").attr('disabled')!=null) return;
     $.post(

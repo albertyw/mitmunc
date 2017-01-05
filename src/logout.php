@@ -6,7 +6,7 @@ require("/var/www/mitmunc/template/header.php"); ?>
 $SESSION->logOut();
 ?>
 <script type="text/javascript">
-window.location="http://www.mitmunc.org/";
+window.location="http://mitmunc.mit.edu/";
 </script>
 You have been logged out.
 <?php require("/var/www/mitmunc/template/footer.php"); ?>
